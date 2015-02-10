@@ -20,7 +20,6 @@ font-family: 'Oswald',serif;
         font-size: 48px;
 text-align:center;
 }
-
 .thumbnail{
 float: center;
 width: 222px;
@@ -34,6 +33,7 @@ letter-spacing:  -0.05em;
     top: 50px;
 	font-weight: 400;
 }
+
 p{
 font-weight: 300;
 }
@@ -45,7 +45,7 @@ ul {
     margin: 0;
     list-style-type: none;
 	font-weight: 300;
-
+ white-space: nowrap;
 }
 
 .menu {
@@ -56,35 +56,29 @@ letter-spacing:  -0.05em;
     color: white;
     
     padding: 0.1em 0.2em;
+	}
 	
-
-
-}
-.images{
-<!--modify dis-->
-}
 
 
 .menu:hover {
     color: #FFCC00 ;
-
 }
 
+.showbox {
+  margin:0 auto;
+  text-align: center;
+width: 666px;
+}
 li {
     display: inline;
 }
-.images a{
-	filter: none;
-  -webkit-filter: grayscale(0);
- 
-  
-}
-.images:hover a{
+
+.showbox:hover  a{
 filter: gray; /* IE6-9 */
   filter: grayscale(1); /* Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
-.images		a:hover{
+.showbox		a:hover{
 filter: none;
   -webkit-filter: grayscale(0);
   }
@@ -105,13 +99,13 @@ filter: none;
 <li><a class="menu" href="#">Link four</a></li>
 </ul>
 
-
-<ul  class="images">
-<li><a href= "tapir.html"><img class="thumbnail" src="images/tapir.png" alt="tapir thumbnail" ></a></li>			
-<li><a href= "mine.html"><img class="thumbnail" src="images/mine.png" alt="tapir thumbnail" ></a>	</li>
-<li><a href= "lesh.html"><img class="thumbnail" src="images/leshpreview.png" alt="tapir thumbnail" ></a>	</li>
+<div class="showbox">
+<ul>
+<li id="greyscale"><a href= "tapir.html"><img class="thumbnail" src="images/tapir.png" alt="tapir thumbnail" ></a></li>			
+<li id="greyscale"><a href= "mine.html"><img class="thumbnail" src="images/mine.png" alt="tapir thumbnail" ></a>	</li>
+<li id="greyscale"><a href= "lesh.html"><img class="thumbnail" src="images/leshpreview.png" alt="tapir thumbnail" ></a>	</li>
 </ul>
-
+</div>
 
 </body>
 
