@@ -2,8 +2,8 @@
 
 body{
 position: relative; 
-    top: -100px;
-background-color:#070604;
+    
+background-color:#151515;
 color: #FFF;
 font-family: 'Oswald',serif;
         font-size: 48px;
@@ -19,19 +19,21 @@ margin: -5px
 
 h1 {
 letter-spacing:  -0.05em;
-    position: relative; 
-    top: 50px;
+    
+    
 	font-weight: 400;
+	margin:0px 0px;
 }
 
 p{
 font-weight: 300;
+font-size:50%;
 }
 h2{
 font-weight: 300;
 font-size:50%;
+margin: 0px 20px;
 }
-
 
 ul {
     float: center;
@@ -42,13 +44,21 @@ ul {
 	font-weight: 300;
  white-space: nowrap;
 }
-
+.topbar{
+background-color:#0F0F0F;
+position: relative; 
+top: 0px;
+}
+.breaker{
+background-color:#FFCC00;
+height:20px;
+}
 .menu {
 letter-spacing:  -0.05em;
     float: center;
     width: 6em;
     text-decoration: none;
-    color: white;
+    color: #F8E9D6;
     
     padding: 0.1em 0.2em;
 	}
@@ -63,6 +73,7 @@ letter-spacing:  -0.05em;
   margin:0 auto;
   text-align: center;
 width: 666px;
+
 }
 li {
     display: inline;
