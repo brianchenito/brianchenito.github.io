@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
 <!-- hi -->
 <meta charset="utf-8">
 <html lang="en-US">
@@ -29,10 +29,66 @@ margin: -5px
 }
 
 h1 {
-letter-spacing:  0.1em;
+letter-spacing:  -0.05em;
     position: relative; 
     top: 50px;
+	font-weight: 400;
 }
+p{
+font-weight: 300;
+}
+
+ul {
+    float: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+	font-weight: 300;
+
+}
+
+.menu {
+letter-spacing:  -0.05em;
+    float: center;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    
+    padding: 0.1em 0.2em;
+	
+
+
+}
+.images{
+<!--modify dis-->
+}
+
+
+.menu:hover {
+    color: #FFCC00 ;
+
+}
+
+li {
+    display: inline;
+}
+.images a{
+	filter: none;
+  -webkit-filter: grayscale(0);
+ 
+  
+}
+.images:hover a{
+filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+.images		a:hover{
+filter: none;
+  -webkit-filter: grayscale(0);
+  }
+
 </style>
 </head>
 
@@ -42,10 +98,20 @@ letter-spacing:  0.1em;
 <p style="font-size:50%"> brianchenito@gmail.com</p>
 <p style="font-size:50%"> 562.916.6809</p>
 
+<ul>
+<li><a class="menu" href="#">Link one</a></li>
+<li><a class="menu" href="#">Link two</a></li>
+<li><a class="menu" href="#">Link three</a></li>
+<li><a class="menu" href="#">Link four</a></li>
+</ul>
 
-<a href= "tapir.html"><img class="thumbnail" src="images/tapir.png" alt="tapir thumbnail" ></a>			
-<a href= "mine.html"><img class="thumbnail" src="images/mine.png" alt="tapir thumbnail" ></a>	
-<a href= "lesh.html"><img class="thumbnail" src="images/leshpreview.png" alt="tapir thumbnail" ></a>	
+
+<ul  class="images">
+<li><a href= "tapir.html"><img class="thumbnail" src="images/tapir.png" alt="tapir thumbnail" ></a></li>			
+<li><a href= "mine.html"><img class="thumbnail" src="images/mine.png" alt="tapir thumbnail" ></a>	</li>
+<li><a href= "lesh.html"><img class="thumbnail" src="images/leshpreview.png" alt="tapir thumbnail" ></a>	</li>
+</ul>
+
 
 </body>
 
