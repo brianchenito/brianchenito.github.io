@@ -14,7 +14,7 @@ text-align:center;
 float: center;
 width: 222px;
 height:553px;
-margin: -5px
+margin: 0px -5px;
 }
 
 h1 {
@@ -50,9 +50,18 @@ position: relative;
 top: 0px;
 }
 .breaker{
-background-color:#CFA600;
-height:10px;
+background-color:#957800;
+height:15px;
+margin: 10px 20px;
 }
+
+	.pagebody{
+
+float:center;
+padding:5px;
+
+}
+
 .menu {
 letter-spacing:  -0.05em;
     float: center;
@@ -63,7 +72,12 @@ letter-spacing:  -0.05em;
     padding: 0.1em 0.2em;
 	}
 	
-
+.pageimage{
+width:100%;
+    max-width:1024px;
+height:100%;
+    max-height:1024px;
+}
 
 .menu:hover {
     color: #CFA600 ;
@@ -81,8 +95,8 @@ li {
 
 .showbox:hover  a{
 filter: gray; /* IE6-9 */
-  filter: grayscale(1); /* Firefox 35+ */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(50%); /* Firefox 35+ */
+  -webkit-filter: grayscale(50%); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 .showbox		a:hover{
 filter: none;
