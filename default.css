@@ -1,17 +1,25 @@
 
 
 body{
-
+float: center;
+	text-align:center;
     
-background-color:#0D0D0B;
-color: #FFF;
-font-family: 'Oswald',serif;
-        font-size: 48px;
+background-color:#181816;
 
+color: #EDEDF5;
+font-family: 'Oswald',serif;
+        font-size: 32px;
+
+		
+	
 }
 .uppermenu{
-float: right;
-margin: 5px 5px;
+float: center;
+
+width: 1024px;
+
+margin: 0 auto;
+padding:5px;
 
 }
 .thumbnail{
@@ -31,11 +39,12 @@ letter-spacing:  -0.05em;
 
 p{
 font-weight: 300;
-font-size:50%;
+font-size:70%;
+	text-align:left;
 }
 h2{
 font-weight: 300;
-font-size:50%;
+font-size:75%;
 margin: 0px 20px;
 text-align:center;
 }
@@ -48,9 +57,10 @@ ul {
     list-style-type: none;
 	font-weight: 300;
  white-space: nowrap;
+ 
 }
 .topbar{
-background-color:#0D0D0B;
+
 
 width: 1024px;
 
@@ -58,16 +68,20 @@ margin: 0 auto;
 padding:5px;
 }
 .breaker{
-background-color:#957800;
-height:15px;
-width: 700px;
+background-color:#215A6D;
+height:3px;
 
 
+text-align:center;
+margin:30px 2px;
+
+-webkit-box-shadow: 1px 2px 4px 1px #141414;
+box-shadow: 1px 2px 4px 1px #141414;
 }
 
 	.pagebody{
 width: 1024px;
-
+	
 margin: 0 auto;
 padding:5px;
 
@@ -79,7 +93,7 @@ letter-spacing:  -0.05em;
     float: center;
     width: 6em;
     text-decoration: none;
-    color: #F8E9D6;
+    color: #92C7A3;
     
     padding: 0.1em 0.2em;
 	}
@@ -89,21 +103,25 @@ letter-spacing:  -0.05em;
     max-width:1024px;
 
     max-height:1024px;
-	float: center;
-	text-align:center;
+		float: center;
+		text-align:center;
 }
 
 .menu:hover {
-    color: #CFA600 ;
+    color:#3CA2A2 ;
 }
 
 .showbox {
   margin:0 auto;
   text-align: center;
-width: 888px;
+width: 880px;
+height: 554px;
+-webkit-box-shadow: 1px 2px 4px 1px #141414;
+box-shadow: 1px 2px 4px 1px #141414;
 
 }
 li {
+text-align: center;
     display: inline;
 }
 
@@ -117,3 +135,25 @@ filter: none;
   -webkit-filter: grayscale(0);
   }
 
+.boxeffect
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.boxeffect:before, .boxeffect:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
