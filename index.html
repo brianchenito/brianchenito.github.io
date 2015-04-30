@@ -11,7 +11,9 @@
 until I figure out adaptive width, showbox width must be modified manually
 note: nobile, oswald font-->
  <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
-
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="js/fancyBox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/fancyBox/source/jquery.fancybox.pack.js"></script>
 </head>
 
 <body >
@@ -33,7 +35,7 @@ note: nobile, oswald font-->
 <h1>Brian Chen - 3D Artist</h1>
 
 </div>
-<br>
+
 <div class="pagebody">
 <div class="showbox">
 <ul>
@@ -43,12 +45,16 @@ note: nobile, oswald font-->
 <li><a href= "blitz.html"><img class="thumbnail" src="images/blitz.png" alt="blitz thumbnail" ></a>	</li>
 </ul>
 </div>
-<h2> brianchenito@gmail.com</h2>
-<h2> 562.916.6809</h2>
+<h2> brianchenito@gmail.com 
+  562.916.6809</h2>
 <div class="breaker">
 </div>
 </div>
-
+<script type="text/javascript">
+$(document).ready(function() {
+$(".fancybox").fancybox();
+});
+</script>
 
 </body>
 

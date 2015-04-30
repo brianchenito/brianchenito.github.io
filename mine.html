@@ -6,6 +6,9 @@
 <link rel="stylesheet" type="text/css" href="default.css">
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
  <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+ <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+ <link rel="stylesheet" href="js/fancyBox/source/jquery.fancybox.css" type="text/css" media="screen" />
+ <script type="text/javascript" src="js/fancyBox/source/jquery.fancybox.pack.js"></script>
 </head>
 
 <body>
@@ -58,7 +61,11 @@
 <iframe width="1024" height="576"  src="https://www.youtube.com/embed/85qjzs-5b1w" frameborder="0" allowfullscreen></iframe>
 
 </div>
-
+<script type="text/javascript">
+$(document).ready(function() {
+$(".fancybox").fancybox();
+});
+</script>
 </div>
 <A class="menu"HREF="#top">To Top of Page</A>
 </body>
