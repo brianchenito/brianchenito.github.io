@@ -22,16 +22,16 @@ body
 {
 	vertical-align: middle;
 	margin: 0 auto;
-	min-height: 720px;
 	max-width: 1280px;
+
 }
 .upperbar
 {
-	
+	position: fixed;
 	top: 0;
 	left: 0;
 	width:100%;
-	margin: 0 auto;
+	padding-top: 10px;
 	padding-left: 25px;
 	padding-right: 24px;
 	padding-bottom:12px;
@@ -44,7 +44,6 @@ body
 	float: right;
 	margin-right: 20px;
 
-	/*border-bottom: 1px solid;*/ 	
 	padding-bottom: 3px;
 
 	background: #262628;
@@ -60,6 +59,14 @@ body
 	padding-right: 60px;
 
 
+}
+.bottombar
+{
+	left: 0;
+    bottom: 2%;
+    position: fixed;
+    width:100%;
+    margin: 0 auto;
 }
 
 .heading1{
@@ -97,6 +104,8 @@ body
 	color:#3CA2A2;
 	color:#3CA2A2;
 }
+/* scalar animation
+
 
 /* Animated text*/
 .textcontainer
@@ -179,12 +188,13 @@ ul li {
 /*CRT Graphic */
 .graphicscontainer
 {
-	position:absolute;
+	vertical-align: middle;
+	margin: 0 auto;
 	width: 300px;
 	height: 20px; 
-	right:50%;
-	bottom:1%;
-	margin: -95px 0 0 -150px; 
+
+	
+    margin: auto;
 	background: #262628;
 	background: -moz-linear-gradient(left, #262628 0%, #211617 16%, #211617 82%, #262628 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, #262628), color-stop(16%, #211617), color-stop(82%, #211617), color-stop(100%, #262628));
@@ -194,8 +204,9 @@ ul li {
 	background: linear-gradient(to right, #262628 0%, #211617 16%, #211617 82%, #262628 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262628', endColorstr='#262628', GradientType=1 );
 
-	zoom: 0.7;
-	-moz-transform: scale(0.7);
+	zoom: 0.8;
+
+	-moz-transform: scale(0.8);
 
 }
 .midscreen {
@@ -329,6 +340,7 @@ background: linear-gradient(-45deg,#202932,#0F1211)); /* Standard syntax */
 
 .tertiaryBevel
 {
+	vertical-align: middle;
 	float: left;
 	width: 170px;
 	height: 190px; 
