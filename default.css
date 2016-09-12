@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Vibur);
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
 @font-face
 {
 	font-family: Jaden;
@@ -11,12 +14,7 @@
 	src: url("Assets/Knile.ttf");
 	src:local(Knile), url("Assets/Knile.ttf");
 }
-@font-face
-{
-	font-family: Handy;
-	src: url("Assets/Handy.ttf");
-	src:local(Handy), url("Assets/Handy.ttf");
-}
+
 body
 {
 	background-color: #262628;
@@ -26,7 +24,7 @@ body
 {
 	vertical-align: middle;
 	margin: 0 auto;
-	min-width: 720px;
+	
 	max-width: 1280px;
 }
 .upperbar
@@ -44,7 +42,7 @@ body
 .topmenu
 {
 	float: right;
-	margin: auto 0;
+	margin-right: 20px;
 
 	/*border-bottom: 1px solid;*/ 	
 	padding-bottom: 3px;
@@ -52,14 +50,15 @@ body
 }
 .graphicscontainer
 {
-	position:relative;
+	position:absolute;
 	float:left;
 	width: 170px;
 	height: 190px; 
-
-	margin-left: 20px; 
-
-
+	right:50%;
+	bottom:5%;
+	margin-left: -95,0,0,-85; 
+	zoom: 0.7;
+    -moz-transform: scale(0.7);
 }
 .heading1{
 	color: #C73643;
@@ -87,11 +86,11 @@ body
 	height: 90px; 
 	float: left;
 		color: #9EBBBF;
-	font-family: Handy,cursive, serif;
+	font-family: 'Damion',cursive, serif;
 	display:inline;
 	text-align: center;
 	vertical-align: middle;
-	font-size: 1.2em;
+	font-size: 1.8em;
 overflow:hidden;
 &:after, &:before {
     position:absolute;
@@ -223,16 +222,18 @@ background: linear-gradient(-45deg,#202932,#0F1211)); /* Standard syntax */
 .stand
 {
 	float: left;
+	border-radius: 10%;
 	width: 160px;
-	height: 5px; 
+	height: 10px; 
 	margin: 5px 0 0 5px;
 	background: #615035;
-	background: -moz-linear-gradient(-45deg, #615035 0%, #877455 26%, #6e5b3a 100%);
-	background: -webkit-gradient(left top, right bottom, color-stop(0%, #615035), color-stop(26%, #877455), color-stop(100%, #6e5b3a));
-	background: -webkit-linear-gradient(-45deg, #615035 0%, #877455 26%, #6e5b3a 100%);
-	background: -o-linear-gradient(-45deg, #615035 0%, #877455 26%, #6e5b3a 100%);
-	background: -ms-linear-gradient(-45deg, #615035 0%, #877455 26%, #6e5b3a 100%);
-	background: linear-gradient(135deg, #615035 0%, #877455 26%, #6e5b3a 100%);
+	background: -moz-linear-gradient(-20deg, #615035 0%, #877455 26%, #6e5b3a 100%);
+	background: -webkit-gradient(20deg color-stop(0%, #615035), color-stop(26%, #877455), color-stop(100%, #6e5b3a));
+	background: -webkit-linear-gradient(-20deg, #615035 0%, #877455 26%, #6e5b3a 100%);
+	background: -o-linear-gradient(-20deg, #615035 0%, #877455 26%, #6e5b3a 100%);
+	background: -ms-linear-gradient(-20deg, #615035 0%, #877455 26%, #6e5b3a 100%);
+	background: linear-gradient(160deg, #615035 0%, #877455 26%, #6e5b3a 100%);
+
 
 }
 .cmyk1
