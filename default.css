@@ -2,20 +2,20 @@
 {
 	font-family: Jaden;
 	src: url("Assets/Jaden.ttf");
-	src:local(Jaden), url("Assets/Jaden.ttf");;
+	src:local(Jaden), url("Assets/Jaden.ttf");
 }
 
 @font-face
 {
 	font-family: Knile;
 	src: url("Assets/Knile.ttf");
-	src:local(Knile), url("Assets/Knile.ttf");;
+	src:local(Knile), url("Assets/Knile.ttf");
 }
 @font-face
 {
 	font-family: Handy;
 	src: url("Assets/Handy.ttf");
-	src:local(Handy), url("Assets/Handy.ttf");;
+	src:local(Handy), url("Assets/Handy.ttf");
 }
 body
 {
@@ -87,7 +87,7 @@ body
 	height: 90px; 
 	float: left;
 		color: #9EBBBF;
-	font-family: Handy,Tahoma, sans-serif;
+	font-family: Handy,cursive, sans-serif;
 	display:inline;
 	text-align: center;
 	vertical-align: middle;
