@@ -12,7 +12,11 @@
 	src: url("Assets/Knile.ttf");
 	src:local(Knile), url("Assets/Knile.ttf");
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 body
 {
 	background-color: #262628;
