@@ -5,8 +5,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<meta charset="utf-8">
-	<title>Brian Chen Portfolio </title>
-
+	<script src="//code.jquery.com/jquery.min.js"></script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -15,37 +14,21 @@
 
 		ga('create', 'UA-83991866-1', 'auto');
 		ga('send', 'pageview');
-
 	</script>
 
+	<title>Brian Chen Portfolio </title>
 </head>
 <body>
 	<div class=mastercontainer>
 
+	<div id="navbar"></div>
 
+	<script>
+	$(function(){
+	  $("#navbar").load("navbar.html");
+	});
+	</script>
 		
-		<div class=upperbar>
-			<a class=heading1 href="index.html">Brian Chen</a>
-			<div class=topmenu>
-				<a class="normalL" href="index.html">Portfolio</a>
-				<div class=divisorP ><font size="5">|</font></div>
-				<a class="normalL" href="about.html">About Me</a>
-				<div class=divisorP ><font size="5">|</font></div>
-  
-				<a class="normalL" href="code.html">Code</a>
-			</div>
-			</br>
-			<div class=normalP>
-				Student
-			</div>
-			<div class=divisorP>|</div>
-			<div class=normalP>Technical Artist</div>
-			<div class=divisorP>|</div>
-
-			<div class=normalP>Developer</div>
-			</br>
-		<div class=normalP>brianchenito@gmail.com</div>
-		</div>
 	<div class= portfoliosection>
 		<ol>
 			<li><a href= "tapir.html"><img  src="images/tapir.png"> 
