@@ -22,6 +22,17 @@ body
 	background-color: #262628;
 
 }   
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
 
 .mastercontainer
 {
