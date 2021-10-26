@@ -193,6 +193,12 @@ a span {
 	width:100%;
 	height:100%;}
 
+
+video 
+{
+		width: 100%;
+		height: auto;  
+}
 .pageimage
 {
 	max-width: 100%
