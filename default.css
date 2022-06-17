@@ -65,7 +65,7 @@ body
 }
 .portfoliosection
 {
-	
+	display:inline-block;
 	top:180px;
 	margin:0 auto;
 	text-align: center;
@@ -202,6 +202,13 @@ video
 .pageimage
 {
 	max-width: 100%
+}
+.normalH
+{
+	font-family: Knile,"Times New Roman", Times, serif;
+	color: #F71159;
+	display:inline;
+	font-size:3em;
 }
 .divisorP
 {
